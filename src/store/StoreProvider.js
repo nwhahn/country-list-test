@@ -56,10 +56,7 @@ const StoreContextProvider = ({ children }) => {
 
   useEffect(() => {
     fetchData()
-    return () => {
-
-    }
-  }, [])
+  })
   
   return <StoreContext.Provider value={{
     countries,
